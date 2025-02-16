@@ -10,7 +10,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 var aguascalientes = L.icon({
     iconUrl: 'Aguascalientes.png', 
-    iconSize: [45, 45], 
+    iconSize: [45, 45],  // tamaño del icono
     iconAnchor: [20, 40], 
     popupAnchor: [20, -52] 
 });
